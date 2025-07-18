@@ -1,0 +1,27 @@
+{
+  "name": "@leachain/vm-exec",
+  "version": "1.0.0",
+  "description": "A CLI for executing LEA VM smart contracts via the VM shim.",
+  "main": "executer.mjs",
+  "bin": {
+    "lea-vm-exec": "./executer.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "dependencies": {
+    "@leachain/vm-shim": "1.0.0"
+  },
+  "author": "Allwin Ketnawang",
+  "license": "MIT",
+  "keywords": [
+    "lea",
+    "vm",
+    "cli",
+    "smart-contracts"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
