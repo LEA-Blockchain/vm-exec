@@ -1,13 +1,14 @@
 <!--
 giturl: https://github.com/LEA-Blockchain/vm-exec
-name: @leachain/vm-exec
-version: 1.0.0
+name: lea-vm-exec
+version: 1.0.1
+description: A CLI for executing LEA VM smart contracts via the VM shim.
 -->
+
+# `lea-vm-exec` Command-Line Usage
 
 [![npm version](https://img.shields.io/npm/v/@leachain/vm-exec)](https://www.npmjs.com/package/@leachain/vm-exec)
 [![GitHub license](https://img.shields.io/github/license/LEA-Blockchain/vm-exec)](https://github.com/LEA-Blockchain/vm-exec/blob/main/LICENSE)
-
-# `lea-vm-exec` Command-Line Usage
 
 This guide provides detailed instructions for using the `lea-vm-exec` command-line tool to execute smart contracts in the Lea-chain VM shim.
 
@@ -92,11 +93,8 @@ npx @leachain/vm-exec ./contract.wasm process_data --file ./data.json
 
 [INFO] Entry point returned exit code: 0
 ```
----
-## Metadata
 
--   **Name**: `lea-vm-exec`
--   **Version**: `1.0.0`
--   **Description**: A CLI for executing LEA VM smart contracts via the VM shim.
--   **Category**: Virtual Machine
--   **Repository**: `https://github.com/LEA-Blockchain/vm-exec.git`
+---
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
